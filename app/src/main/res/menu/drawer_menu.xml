@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/mathFragment"
+            android:icon="@drawable/ic_looks_one_black_24dp"
+            android:title="@string/Math" />
+        <item
+            android:id="@+id/englishFragment"
+            android:icon="@drawable/ic_looks_two_black_24dp"
+            android:title="@string/English" />
+        <item
+            android:id="@+id/politicsFragment"
+            android:icon="@drawable/ic_looks_3_black_24dp"
+            android:title="@string/Politics" />
+        <item
+            android:id="@+id/CSFragment"
+            android:icon="@drawable/ic_looks_4_black_24dp"
+            android:title="@string/CS" />
+    </group>
+    <item android:title="@string/Other" >
+        <menu >
+            <group
+                android:id="@+id/group2"
+                android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/reviewFragment"
+                    android:icon="@drawable/ic_pets_black_24dp"
+                    android:title="@string/Review" />
+                <item
+                    android:id="@+id/testFragment"
+                    android:icon="@drawable/kaoshi"
+                    android:title="@string/selfTest" />
+                <item
+                    android:id="@+id/manualFragment"
+                    android:icon="@drawable/ic_people_black_24dp"
+                    android:title="@string/Manual" />
+            </group>
+        </menu>
+    </item>
+</menu>

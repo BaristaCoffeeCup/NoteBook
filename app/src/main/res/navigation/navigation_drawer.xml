@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_drawer"
+    app:startDestination="@id/mathFragment">
+
+    <fragment
+        android:id="@+id/mathFragment"
+        android:name="com.example.notebook.Math.MathFragment"
+        android:label="数学"
+        tools:layout="@layout/fragment_math" />
+    <fragment
+        android:id="@+id/englishFragment"
+        android:name="com.example.notebook.English.EnglishFragment"
+        android:label="英语"
+        tools:layout="@layout/fragment_english" />
+    <fragment
+        android:id="@+id/CSFragment"
+        android:name="com.example.notebook.CS.CSFragment"
+        android:label="专业课"
+        tools:layout="@layout/fragment_c" />
+    <fragment
+        android:id="@+id/politicsFragment"
+        android:name="com.example.notebook.Politics.PoliticsFragment"
+        android:label="政治"
+        tools:layout="@layout/fragment_politics" />
+    <fragment
+        android:id="@+id/reviewFragment"
+        android:name="com.example.notebook.Review.ReviewFragment"
+        android:label="复习"
+        tools:layout="@layout/fragment_review" />
+    <fragment
+        android:id="@+id/manualFragment"
+        android:name="com.example.notebook.ManualFragment"
+        android:label="关于"
+        tools:layout="@layout/fragment_manual" />
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.example.notebook.AddFragment"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.example.notebook.Test.testFragment"
+        android:label="自测助手"
+        tools:layout="@layout/fragment_test" >
+        <action
+            android:id="@+id/action_testFragment_to_recordFragment"
+            app:destination="@id/recordFragment"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/recordFragment"
+        android:name="com.example.notebook.Test.RecordFragment"
+        android:label="测试记录"
+        tools:layout="@layout/fragment_record">
+        <action
+            android:id="@+id/action_recordFragment_to_testFragment"
+            app:destination="@id/testFragment"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit"
+            app:popUpTo="@+id/recordFragment" />
+    </fragment>
+</navigation>

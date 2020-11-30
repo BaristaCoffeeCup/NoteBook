@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">十元笔记</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Math">数学</string>
+    <string name="English">英语</string>
+    <string name="Politics">政治</string>
+    <string name="CS">专业课</string>
+    <string name="Review">复习</string>
+    <string name="Manual">关于</string>
+    <string name="Class">科目</string>
+    <string name="Other">其他</string>
+    <string name="Search">搜索</string>
+    <string name="courage1">十元</string>
+    <string name="courage2">十元笔记</string>
+    <string name="addNew">新建记录</string>
+    <string name="selfTest">自测助手</string>
+
+    <string-array name="ClassChoice">
+        <item>数学</item>
+        <item>英语</item>
+        <item>政治</item>
+        <item>专业课</item>
+    </string-array>
+    <string name="shuoming1">
+        \t\t\t\t《十元笔记》作为《移动终端程序设计》这门课的课程设计，由于我的技术水平刚刚入门，还有很多不足之处，希望能有一个好的分数，请老师指导，谢谢老师，感恩^_^ !\n
+        \t\t\t\t《十元笔记》取名于喜欢的一为日本演员的名字，灵感来源于正在复习阶段的自己。通过《十元笔记》，用户可以分学科将每天学习的内容记录到软件中，通过每一个CardView右侧的SwitchBar可以自行决定是否需要将该项学习内容规划入复习计划中。\n
+        \t\t\t\t软件采用艾宾浩斯记忆曲线算法安排内容复习，在复习界面，用户可以了解到当天需要复习的内容有哪些。\n
+        \t\t\t\t在自测助手模块中，系统为用户提供给了自定义项目功能以及测试计时功能，用户可以保存每一次的测试记录供之后进行对比分析。更多使用细节详见课设报告。\n
+        \t\t\t\t张宇老师说过，念念不忘，才能有所回响。祝各位同学，复习顺利，考研成功！
+    </string>
+
+
+</resources>

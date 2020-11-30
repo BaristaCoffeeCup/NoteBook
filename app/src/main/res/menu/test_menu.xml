@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/clearRecord"
+        android:icon="@drawable/qingkong"
+        android:title="清空测试项目" />
+    <item
+        android:id="@+id/saveRecord"
+        android:icon="@drawable/baocun"
+        android:title="保存测试记录" />
+    <item
+        android:id="@+id/checkTestRecord"
+        android:icon="@drawable/check"
+        android:title="查看测试记录" />
+    <item
+        android:id="@+id/clearTestRecord"
+        android:title="清空测试记录" />
+</menu>
